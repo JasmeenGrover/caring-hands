@@ -1,0 +1,59 @@
+/* .header-text {
+    font-size: 40px;
+    font-family: uni sans;
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+} */
+body{
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #e7d9ea;
+}
+
+.admin-title{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  padding: 0.5% 10%;
+  text-align: center;
+}
+
+.admin-background{
+  background-color: #e7d9ea;
+}
+
+.doctor{
+  width: 18rem;
+  height: 20rem;
+}
+
+.patient{
+  width: 18rem;
+  height: 20rem;
+}
+
+.btn{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.doctor-image{
+  width: 200px;
+  height: 200px;
+  padding: 2% 2%;
+}
+
+.patient-image{
+  width: 200px;
+  height: 200px;
+  padding: 2% 2%;
+}
+
+.card-body{
+  margin-top: 10%;
+}

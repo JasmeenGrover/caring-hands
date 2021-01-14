@@ -1,0 +1,61 @@
+/* .header-text {
+    font-size: 30px;
+    font-family: lovelo;
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+} */
+body{
+  background-color: #e7d9ea;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.patient-title{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  padding: 0.5% 10%;
+  text-align: center;
+}
+
+.form-background{
+  background-color: #e7d9ea;
+  padding: 2% 2%;
+}
+
+.btn-fetch{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-submit{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-update{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width:1000px) {
+  .form-background{
+    padding: 5% 5%;
+  }
+  .btn-submit{
+    position: relative;
+    left: 7rem;
+  }
+  .btn-update{
+    position: relative;
+    bottom: 3.4rem;
+    left: 15rem;
+  }
+}

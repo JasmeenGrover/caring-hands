@@ -1,0 +1,26 @@
+/* .header-text {
+    font-size: 30px;
+    font-family: lovelo;
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+} */
+body{
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #e7d9ea;
+}
+
+.search-title{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  padding: 0.5% 10%;
+}
+
+.search-background{
+  background-color: #e7d9ea;
+}

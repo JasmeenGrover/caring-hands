@@ -1,0 +1,56 @@
+/* .header-text {
+    font-size: 30px;
+    font-family: lovelo;
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
+
+
+#fetch {
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 1), rgba(35, 166, 213, 1));
+    color: white;
+    font-weight: 500;
+    transition: ease all 0.5s;
+}
+
+#fetch:hover {
+    color: #fff;
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 0.8), rgba(35, 166, 213, 0.8));
+
+} */
+
+body{
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #e7d9ea;
+}
+
+table {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bp-title{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  padding: 0.5% 10%;
+  text-align: center;
+}
+
+.btn{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.bp-background{
+  background-color: #e7d9ea;
+  padding: 2% 2%;
+}

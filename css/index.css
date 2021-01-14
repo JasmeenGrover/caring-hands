@@ -1,0 +1,91 @@
+.outer{
+	width: 1000px;
+	height: 600px;
+	background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid red;
+}
+/*Body Selector*/
+*{
+	margin: 0px;
+}
+body{
+	background-color: dimgray;
+}
+#title-div
+{
+	width:  inherit;
+	background-color: orange;
+	height: 50px;
+}
+.title{
+	font-size: 25px;
+	margin-top: 10px; float: left;
+	margin-left: 50px;
+	font-family: fantasy;
+}
+#menu-div
+{
+	width:  inherit;
+	background-color: white;
+	height: 60px;
+	border-bottom:2px black solid;
+}
+#menu-div ol{
+	list-style: none;
+	margin-top: 10px;
+	float: left;
+	margin-left: 100px;
+	
+}
+#menu-div li{
+	float: left;
+	padding: 10px 20px 10px 20px;
+	margin-left: 5px;
+	background-color: black; color:orange; font-weight: bolder;
+	
+}
+#menu-div li:hover{
+	border-bottom: 6px black solid ;
+	cursor: pointer;
+	background-color: orange;
+	color:black;
+}
+#title-img-div
+{
+	background-image: url(../pics/heading.png);
+	width: inherit;
+	height: 120px;
+	border-bottom: 2px black solid;
+}
+#team-div{
+	font-size: 22px;
+	font-family: fantasy;
+	width: inherit;
+	height: 35px;
+	background-color: orange;
+	text-align: center;
+}
+#parent-div
+{
+	width:  inherit;
+	background-color: black;
+	height: 250px;
+	text-align: center;
+}
+.child{
+	width: 250px;
+	height: 220px; background-color: white;
+	margin-top: 15px; 
+	display: inline-block;
+	
+	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body{
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #e7d9ea;
+}
+
+table{
+  display: none;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 2% 2%;
+}
+
+.manager-title{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  padding: 0.5% 10%;
+  text-align: center;
+}
+
+.manager-background{
+  background-color: #e7d9ea;
+  text-align: center;
+}

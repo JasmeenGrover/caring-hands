@@ -1,0 +1,383 @@
+/* #txtUid,
+#txtMob,
+#txtPwd,
+#txtUid2,
+#txtMob2,
+#txtPwd2 {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.modal-dialog {
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+    width: 430px;
+}
+
+.modal-header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
+.modal-title {
+    color: white;
+}
+
+.close {
+    color: white;
+}
+
+.close:hover {
+    color: white;
+}
+
+.navSign,
+.navLog {
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 1), rgba(35, 166, 213, 1));
+    color: white;
+    font-weight: 500;
+    transition: ease all 0.5s;
+}
+
+.navSign:hover,
+.navLog:hover {
+    color: #fff;
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 0.8), rgba(35, 166, 213, 0.8));
+
+}
+
+#service {
+    height: 60px;
+    font-size: 40px;
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 0.8), rgba(35, 166, 213, 0.8));
+    color: white;
+}
+
+.image {
+    width: 150px;
+}
+
+.footerimg {
+    width: 200px;
+}
+
+.main{
+    width:1903px;
+    height:401px;
+}
+
+.bg-service,
+.bg-reach,
+.bg-dev {
+    background: #e8eced;
+}
+
+.size{
+    font-size:17px;
+}
+
+.logo{
+    font-size:30px;
+}
+
+.reach{
+    height:300px;
+}
+
+iframe{
+    width:inherit;
+    height:300px;
+}
+
+@media (max-width:768px){
+    .main{
+        height:500px;
+    }
+
+.nav-item{
+  color: #fff;
+  font-size: 5rem;
+}
+a{
+  text-decoration: none;
+}
+
+.nav-font{
+  font-size: 2rem;
+}
+
+.service-card{
+  padding: 3% 15%;
+}
+
+.service-card1{
+  width:18rem;
+}
+
+.service-card2{
+  width:18rem;
+}
+
+.card-small{
+  width: 18rem;
+}
+@media (max-width: 1000px) {
+  .card-small{
+    margin-right: 40px;
+    align-items: center;
+    align-self: center;
+    width: 40rem;
+  }
+
+  /* .service-card1{
+    margin-left: 10px;
+  } */
+
+  /* .service-card1{
+    margin-left: 10px;
+    margin-right: 2px
+  }
+
+  .service-card2{
+    margin-right: 5px;
+    margin-left: 2px;
+  }
+
+} */
+
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 3% 0;
+  margin-top: 5%;
+}
+
+.title-search{
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: #e7e7de;
+}
+
+.section-heading{
+  background-color: #16c79a;
+  color: #14274e;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2px;
+}
+
+iframe{
+  height: 20rem;
+  width: 20rem;
+}
+
+/* Title */
+
+#title{
+  background-color: #19456b;
+  color: #e7e7de;
+  padding: 3% 15% 7%;
+ text-align: left;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: "Ubuntu";
+}
+
+.nav-item{
+  margin: auto 2px auto 2px;
+}
+
+.big-heading{
+  margin: 50px 20px;
+}
+
+.title-image{
+  padding: 15% 2%;
+}
+
+
+/* a, .btn{
+  margin-top: 10px;
+} */
+
+/* Service */
+
+.service-card{
+  padding: 3% 15%;
+}
+.service-card1{
+  width: 18rem;
+}
+.service-card2{
+  width: 18rem;
+}
+.service-card3{
+  width: 18rem;
+}
+.image{
+  width: 150px;
+}
+
+.service-background{
+  background-color: #e7d9ea;
+}
+
+#services{
+
+}
+
+@media (max-width:1000px) {
+  .service-card{
+    padding: 3% 10% 3% 25%;
+    text-align: center;
+    align-items: center;
+  }
+  .service-card1{
+    width: 18rem;
+  }
+  .service-card2{
+    width: 18rem;
+  }
+  .service-card3{
+    width: 18rem;
+  }
+}
+
+/* ReachUs */
+
+#reachus{
+  background-color: #e7d9ea;
+}
+
+.reach-background{
+  padding: 3% 3%;
+}
+
+/* AboutUs */
+
+.about-background{
+  background-color: #e7d9ea;
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.about-card1{
+  width: 18rem;
+  padding: 2% 2%;
+  margin: 5% 10% auto auto;
+}
+
+.about-card2{
+  width: 18rem;
+  padding: 2% 3%;
+  margin: 5% auto auto 10%;
+}
+
+/* footer section */
+
+.footer-background{
+  background-color: #19456b;
+  color: #e7e7de;
+  padding: 2% 15% 2%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.icon{
+  padding: 2% 1% 1% 1%;
+}
+
+/* modal */
+
+#txtUid,
+#txtMob,
+#txtPwd,
+#txtUid2,
+#txtMob2,
+#txtPwd2 {
+   width: 300px;
+   border-radius: 30px;
+}
+
+.modal-dialog {
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+    width: 430px;
+}
+
+.modal-header {
+    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
+.modal-title {
+    color: white;
+}
+
+.close {
+    color: white;
+}
+
+.close:hover {
+    color: white;
+}
+
+.navSign,
+.navLog {
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 1), rgba(35, 166, 213, 1));
+    color: white;
+    font-weight: 500;
+    transition: ease all 0.5s;
+}
+
+.navSign:hover,
+.navLog:hover {
+    color: #fff;
+    background: linear-gradient(-45deg, rgba(35, 213, 171, 0.8), rgba(35, 166, 213, 0.8));
+
+}
+
+.modal-footer,a{
+  color: #008891;
+  font-weight: bold;
+}
+
+@media (max-width:1000px) {
+  .about-background{
+    text-align: center;
+  }
+  .about-card1{
+    margin: 5% 10%;
+  }
+  .about-card2{
+    margin: 5% 10%;
+  }
+  .reachus1{
+    margin: 5% 1%;
+  }
+  .reachus2{
+    margin: 5% 1%;
+  }
+
+  .title-image{
+    width: 400px;
+    margin-right: 20px;
+  }
+}
