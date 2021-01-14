@@ -1,0 +1,19 @@
+after database click in manage
+phpmyadmin
+minimize browser
+open php my admin from xampp
+double click on database
+go to export
+neeche h go [right]
+file will get downloaded [paste on desktop]
+go back in chrome [go to 000 web host ka php my admin and click on import]
+select your database
+choose file
+click go
+
+******** now we have to change some data in connection file
+go to file manager inside 000
+click on upload files
+click on public html
+right click on connection.php -> edit
+root ki jgh naya userid [jb database bnaya tha (go to database manager and get dbusername and paste it on root and change password as well and change dbname with project)]
